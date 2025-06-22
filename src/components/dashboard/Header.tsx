@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { Pills, LogOut, Bell } from 'lucide-react';
+import { Pill, LogOut, Bell } from 'lucide-react';
 
 const Header = ({ user, onLogout }) => {
   const getInitials = (name) => {
@@ -14,7 +14,7 @@ const Header = ({ user, onLogout }) => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-blue-100 rounded-lg">
-              <Pills className="w-6 h-6 text-blue-600" />
+              <Pill className="w-6 h-6 text-blue-600" />
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">MedsBuddy</h1>

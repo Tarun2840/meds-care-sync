@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Pills, Heart, Shield } from 'lucide-react';
+import { Pill, Heart, Shield } from 'lucide-react';
 import { toast } from '@/hooks/use-toast';
 
 const AuthForm = ({ onAuth }) => {
@@ -63,7 +63,7 @@ const AuthForm = ({ onAuth }) => {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-            <Pills className="w-8 h-8 text-blue-600" />
+            <Pill className="w-8 h-8 text-blue-600" />
           </div>
           <h1 className="text-3xl font-bold text-gray-900">MedsBuddy</h1>
           <p className="text-gray-600 mt-2">Your medication management companion</p>
